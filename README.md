@@ -38,7 +38,8 @@
     -----------------------------------------------------------------
     yum install logstash -y
     service logstash start
-# Check logs of Springboot-Application
+  Check logs of Springboot-Application
+    
     cd springboot-elk
   Run application for logs:
     
