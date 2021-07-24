@@ -1,5 +1,7 @@
 # elasticsearch-logstash-kibana
 
+![image](https://user-images.githubusercontent.com/58024415/126860115-982ced35-0a2e-4daf-b21a-3aafca404059.png)
+
 # Elastic search SetUp
     wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.9.3-x86_64.rpm
     rpm -ivh elasticsearch-7.9.3-x86_64.rpm
