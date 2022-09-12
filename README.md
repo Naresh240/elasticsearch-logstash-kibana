@@ -28,6 +28,7 @@ Install Elasticsearch, Logstash and Kibana
 
 ```bash
 yum install elasticsearch logstash kibana -y
+```
    
 If you want to see elastic search in UI, need to edit ```elasticsearch.yml``` shown as below
     
@@ -68,6 +69,7 @@ server.port: 5601
 server.host: "0.0.0.0"
 elasticsearch.hosts: ["http://localhost:9200"]
 -------------------------------------------------
+```
 
 Start kibana service
 
