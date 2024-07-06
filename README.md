@@ -94,6 +94,9 @@ Create log file with below commands
 ```bash
 cd springboot-elk
 
+mkdir -p .mvn
+echo "--add-opens java.base/java.lang=ALL-UNNAMED" > .mvn/jvm.config
+
 Run application for logs:
    
 mvn spring-boot:run
